@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/96a4716221.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Steve Classic Round Sticker.jpg" class="logo">
+            <i class="fas fa-bars"></i>
+
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li> 
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times"></i>
+
+            </ul>
+
+        </nav>
+        <div class="header-text">
+            <p>Backend Engineer</p>
+            <h1>Hey , I'm <span>Stephen</span><br>Mwaura from Kenya.</h1>
+        </div>
+    
+</div>
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="About-col-1">
+                <img src="images/my2 image.jpg">
+            </div>
+            <div class="About-col-2">
+                <h1 class = "sub-title">About me.</h1>
+                <p>I am a backend engineer who loves building cool websites and Api's.I enjoy solving problems, learning new things, and making technology work better for people. Whether it's coding up a new feature or finding ways to improve a system, I'm always up for the challenge.
+                    When I'm not coding, I like to explore new tech trends,watch football, play soccer, read, connect with other tech enthusiasts and play video games. Let's build something awesome together!</p>
+                
+                <div class="tab-titles">
+        
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+    
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Backend Development.</span> Designing RESTful API's.</li>
+                        <li><span>Frontend Development.</span> Creating websites.</li>
+
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Secondary Education Certificate.</span> Studied at Mary Mother of Grace Secondary School located in Laikipia County at a small town known as Rumuruti. I managed to score a B+ in my final examination.</li>
+                        <li><span>Backend Engineering Certificate.</span> I underwent a four month's software program at ALX.I was able to complete my studies and graduated.</li>
+                        <li><span>Pursuing a Bachelor's Degree in Data Science.</span> I am currently enrolled as a student at the Cooperative University of Kenya as a first year.</li>
+
+                    </ul>
+
+
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Creating Api's.</span> I have been working on personal projects as I aim to improve my skills. I have been able to create a movie, task and ecommerce Api's.</li>
+                        <li><span>Creating Websites.</span> I am also training myself in creating of websites as I aim to be a wizard in this field.</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+</div>
+
+<div id ="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>I am passionate of crafting responsive websites that deliver excellent user experiences.With a solid foundation in HTML and CSS.</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>RESTful APIs</h2>
+                <p>I specialize in developing APIs that are user-friendly.Using framework like Django, I ensure my APIs follow best practices allowing seamless communication between the frontend and backend.</p>
+
+            </div>
+
+        
+    </div>
+</div>
+
+<div id="Portfolio">
+    <div class="container">
+        <h1 class = "sub-title">My work.</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/social media api.png">
+                <div class="layer">
+                    <h3>Social media RESTful API.</h3>
+                    <p>A social media app for making posts,viewing user profiles, following people and interacting socially with people.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                    <img src="images/movie api.jpg">
+                    <div class="layer">
+                        <h3>A Movie RESTful API.</h3>
+                        <p>A RESTful API where a logged in user can post and comment on movies, rate them, and be able to recommend films to others.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+            </div>  
+            <div class="work">
+                    <img src="images/website.png">
+                    <div class="layer">
+                        <h3>Cool websites.</h3>
+                        <p>I am fond of creating websites for different purposes improving my Frontend skills.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    
+            </div>
+
+
+
+
+        </div>
+        
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row"></div>
+        <div class="contact-left">
+            <h1 class="sub-title">Contact me.</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>stevecartel44@gmail.com</p>
+            <p><i class="fa-solid fa-phone-volume"></i>0103139865</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/stephen-mwaura123/"><i class="fa-brands fa-linkedin"></i>"</a>
+                <a href="https://x.com/its_stevemwaura"><i class="fa-brands fa-twitter-square"></i>"</a>
+            </div>
+
+            <a href="images/My resume.docx" download class="btn btn2">Download resume.</a>
+
+
+        </div>
+
+        <div class="contact-right">
+            <form name="submit-to-google sheet">
+                <input type="text" name="Name" placeholder="Enter your name" required>
+                <input type="email" name="Email" placeholder="Enter your email" required>
+                <textarea name="Message" rows="6" placeholder="Your message" required></textarea>
+                <button type="submit" class="btn btn2">Send</button>
+            </form>
+            <span id = "msg"></span>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        <p>Copyright @ Steve. Made by <i class="fa-solid fa-heart"></i>coding. </p></p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab"); 
+     
+    }
+</script>
+
+<script>
+    const sidemenu = document.getElementById("sidemenu");
+    const menuIcon = document.querySelector(".fa-bars");
+    const closeIcon = document.querySelector(".fa-times");
+
+    menuIcon.onclick = () => {
+        sidemenu.classList.add("show");
+
+    };
+
+    closeIcon.onclick = () => {
+        sidemenu.classList.remove("show");
+    };
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbztTuBsvyP0vXBgCM6mrx6xBFzQi2Ms0ipscn4rui9_wX70QR0M5-AuPWFQZx6GefHd/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msgElement = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML ="Message sent successfully"
+            setTimeout(function() {
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+    
+</body>
+</html>
